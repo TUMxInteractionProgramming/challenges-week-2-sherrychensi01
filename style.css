@@ -1,0 +1,106 @@
+/*Global*/
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding:0px;
+}
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+/*App bar*/
+.app-bar {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+/*Channels list*/
+ul {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    list-style-type: none;
+}
+ul li{
+    box-sizing: border-borx;
+    padding:16px;
+    font-size:16px;
+    height:48px;
+    border-bottom:1px solid #F5F5F5 ;
+} 
+li img{
+    vertical-align:middle;
+    }
+
+ul li.selected{
+    color:#3F51B5;
+    border-left:4px solid #3F51B5;
+
+}
+
+
+div{
+    background-color: white;
+}
+/*Tab bar*/
+#tab-bar {background-color:white;
+}
+
+#tab-bar button{
+    background-color:white;
+    border:none;
+    font-size: 13px;
+    text-transform:uppercase; 
+    width:33%;
+    height:72px;
+    padding: 16px;
+    }
+    #tab-bar button img{
+        display:block;
+        margin:0 auto 10px auto;
+}
+#tab-bar button.selected{
+    color:#3F51B5;
+    border-bottom:4px solid #3F51B5;
+}
+
+/*Messages*/
+.message {
+  width:80%;
+  margin-bottom: 8px;
+  margin-left:2.5%;
+  padding-top: 16px;
+  padding-bottom:16px;
+  }
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding:16px;
+}
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message h3 em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+.message h3  a{color:black;}
+
+.message button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+.message.own{
+    margin-left:17.5%;
+    }
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
